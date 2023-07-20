@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* color: #fff; */
+	display: flex;
+	font-family: "Roboto Condensed", sans-serif;
+	margin: 0 auto;
+	place-content: center;
+	place-items: center;
+	font-size: 16px;
+	height: 100vh;
+    padding: 0 32px;
+}
+
+h1 {
+    font-family: 'Poppins';
+
+}
+
+.container {
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+}
+.questions {
+    margin-top: 16px;
+	display: flex;
+}
+.answers {
+	display: flex;
+	gap: 8px;
+}
+button {
+	padding: 12px 14px;
+	border-radius: 8px;
+	border: none;
+    background: #272727;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.isWin{
+    padding-bottom: 10px;
+}
+p{
+    line-height:22px
+}
